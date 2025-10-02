@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Env
+.env
+.venv/
+env/
+venv/
+
+# Django migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# SQLite
+*.sqlite3
+
+# Static/media
+static/
+media/
+
+# Logs
+*.log
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Node
+node_modules/
+dist/
+
+# System
+.DS_Store
+*.swp
